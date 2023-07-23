@@ -3,7 +3,7 @@ Introducing a cutting-edge text-based management system designed exclusively for
 
 Built using Python programming language, MySQL database management language, file handling
 
-#Database Tables 
+## Database Tables 
 
 Type Of Data: .txt File
 Data In File: <MySQL Password (Same as Admin Password)>
@@ -24,7 +24,7 @@ Table3: ISSUE_DETAILS  Description:
 ![image](https://github.com/eshan-sud/library_management_system/assets/113531303/a8a0a350-fd97-4c91-921f-1e7b58a53f60)
 
 
-#Admin Operations
+## Admin Operations
 
 i. Display All Books          
 ii. Add New Book               
@@ -45,7 +45,7 @@ xvi. Display Issue Details of Closed Records
 xvii. Change Admin Password 
 xviii. Log Out
 
-#Member Operations
+## Member Operations
 
 i. Display All Books
 ii. Issue Book
