@@ -17,12 +17,51 @@ Built using Python programming language, MySQL database management language, fil
    Python : [https://www.python.org/downloads/]
 
    MySQL  : [https://www.mysql.com/downloads/]
-   
-3) Download the files Main.py, Operations.py, Library_MySQL_Password.txt
-   (Put the same password of your MySQL account and note that this will be your Admin password as well)
-4) Execute Main.py to begin your program
 
-5) <ins>Optional</ins> : To create a sample database execute Create_Sample_Database.py before executing Main.py
+2) <ins>Optional</ins> : To create a sample database execute Create_Sample_Database.py before executing Main.py
+
+   Or
+
+   Execute the following commands in the MySQL client:
+
+         CREATE DATABASE WORLD_LIBRARY;
+
+         USE WORLD_LIBRARY;
+   
+         CREATE TABLE BOOKS(
+         BOOK_ID INT(4) PRIMARY KEY,
+         BOOK_NAME VARCHAR(20) NOT NULL,
+         AUTHOR VARCHAR(20) NOT NULL,
+         TOTAL_COPIES INT(3) NOT NULL,
+         ISSUED_COPIES INT(3));
+
+         CREATE TABLE MEMBERS(
+         MEMBER_ID INT(4) PRIMARY KEY,
+         PASSKEY VARCHAR(10) NOT NULL UNIQUE,
+         FIRST_NAME VARCHAR(10) NOT NULL,
+         MIDDLE_NAME VARCHAR(10),
+         LAST_NAME VARCHAR(10) NOT NULL,
+         GENDER VARCHAR(10) NOT NULL,
+         DOB DATE NOT NULL,
+         ADDRESS VARCHAR(30) NOT NULL,
+         BOOK_ID1 INT(4),
+         BOOK_ID2 INT(4),
+         BOOK_ID3 INT(4),
+         BOOK_ID4 INT(4));
+      
+         CREATE TABLE ISSUE_DETAILS(
+         MEMBER_ID INT(4) NOT NULL,
+         BOOK_ID INT(4) NOT NULL,
+         ISSUED_DATE DATE NOT NULL,
+         DUE_DATE DATE NOT NULL,
+         RETURNED_DATE DATE,
+         RECORD_TYPE CHAR(6));
+   
+4) Download the files Main.py, Operations.py, Library_MySQL_Password.txt & <ins>Optionsl</ins> : Create_Sample_Database.py
+   (Put the same password of your MySQL account and note that this will be your Admin password as well)
+   
+5) Execute Main.py to begin your program
+ 
 
 ## Stored Data
 
@@ -38,15 +77,15 @@ Type Of Data : MySQL Database
 
 Database Name : WORLD_LIBRARY
 
-Table-1: BOOKS              Description:
+Table-1: BOOKS
 
 ![image](https://github.com/eshan-sud/library_management_system/assets/113531303/7d685cf0-568e-46ac-a0f6-91a4b648aa5f)
 
-Table-2: MEMBERS            Description:
+Table-2: MEMBERS
 
 ![image](https://github.com/eshan-sud/library_management_system/assets/113531303/f258a9ac-6fb1-441a-9328-67e9b561595a)
 
-Table-3: ISSUE_DETAILS      Description:
+Table-3: ISSUE_DETAILS
 
 ![image](https://github.com/eshan-sud/library_management_system/assets/113531303/a8a0a350-fd97-4c91-921f-1e7b58a53f60)
 
