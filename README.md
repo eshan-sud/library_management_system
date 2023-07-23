@@ -12,12 +12,11 @@ Built using Python programming language, MySQL database management language, fil
 
 1) Download both Python programming language & MySQL from their official website
 
-   Python : [https://www.python.org/downloads/]
-   MySQL  : [https://www.mysql.com/downloads/]
-
-2) 
-
-
+   Python : [https://www.python.org/downloads/].
+   MySQL  : [https://www.mysql.com/downloads/].
+   
+3) Download the files Main.py, Operations.py, library_password.txt (Put the same password as your MySQL account)
+4) Execute Main.py
 
 ## Stored Data
 
