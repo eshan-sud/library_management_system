@@ -160,7 +160,7 @@ def refresh_member_details(member_id):
 
 def refresh_password():
     '''Refreshes The MySQL And Admin Password'''
-    Password_File = open('Library_SQL_Password.txt', 'r')
+    Password_File = open('Library_MySQL_Password.txt', 'r')
     Password = Password_File.read()
     Password_File.close()
     return Password
@@ -506,7 +506,7 @@ def change_password(parameter, member_details = ()):
     '''Changes Pasword Of ADMIN Or MEMBER'''
     if parameter == 'ADMIN':
         old_pass = input('Enter Old Password: ')
-        Pass_File = open('Library_SQL_Password.txt', 'r+')
+        Pass_File = open('Library_MySQL_Password.txt', 'r+')
         Old_Pass_File = Pass_File.read()
         if old_pass != Old_Pass_File: print('Request Denied!\nInvalid Password Given!') ; return
         new_pass = input('Enter New Passord(<=10 charactors)(Leave Blank For A Random Password): ')
