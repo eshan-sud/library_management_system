@@ -57,11 +57,12 @@ Built using Python programming language, MySQL database management language, fil
          RETURNED_DATE DATE,
          RECORD_TYPE CHAR(6));
    
-4) Download the files Main.py, Operations.py, Library_MySQL_Password.txt & <ins>Optionsl</ins> : Create_Sample_Database.py
+4) Download the files Main.py, Operations.py, Library_MySQL_Password.txt & <ins>Optional</ins> : Create_Sample_Database.py
+
    (Put the same password of your MySQL account and note that this will be your Admin password as well)
    
 5) Execute Main.py to begin your program
- 
+
 
 ## Stored Data
 
