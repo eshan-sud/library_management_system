@@ -5,18 +5,24 @@ ________________________________________________________________________________
 
 Introducing a cutting-edge text-based management system designed exclusively for libraries, empowering them to efficiently maintain and manage their records. Additionally, this innovative platform offers users the convenience of checking out library books and tracking the time limit on their rented books with ease.
 
-Built using Python programming language, MySQL database management language, file handling, pymysql, database management.
+
+Built using Python programming language, MySQL database management language, file handling, pymysql, database management, etc.
+
 
 ## How To Run
 
 
 1) Download both Python programming language & MySQL from their official website
 
-   Python : [https://www.python.org/downloads/].
-   MySQL  : [https://www.mysql.com/downloads/].
+   Python : [https://www.python.org/downloads/]
+
+   MySQL  : [https://www.mysql.com/downloads/]
    
-3) Download the files Main.py, Operations.py, library_password.txt (Put the same password as your MySQL account)
-4) Execute Main.py
+3) Download the files Main.py, Operations.py, Library_MySQL_Password.txt
+   (Put the same password of your MySQL account and note that this will be your Admin password as well)
+4) Execute Main.py to begin your program
+
+5) <ins>Optional</ins> : To create a sample database execute Create_Sample_Database.py before executing Main.py
 
 ## Stored Data
 
