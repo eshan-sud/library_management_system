@@ -1,5 +1,5 @@
 import pymysql
-Password_File = open('MySQL_Password.txt', 'r')
+Password_File = open('Library_Password.txt', 'r')
 Password = Password_File.read()
 Password_File.close()
 connection = pymysql.connect(user = 'root', host = 'localhost', password = Password)
