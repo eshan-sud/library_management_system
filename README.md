@@ -63,33 +63,6 @@ Built using Python programming language, MySQL database management language, fil
    
 5) Execute Main.py to begin your program
 
-
-## Stored Data
-
-_____________________________________________________________________________________________________________________________________________________________________________
-
-Type Of Data : .txt File
-
-Data In File : <MySQL Password (Same as Admin Password)>
-
-_____________________________________________________________________________________________________________________________________________________________________________
-
-Type Of Data : MySQL Database
-
-Database Name : WORLD_LIBRARY
-
-Table-1: BOOKS
-
-![image](https://github.com/eshan-sud/library_management_system/assets/113531303/7d685cf0-568e-46ac-a0f6-91a4b648aa5f)
-
-Table-2: MEMBERS
-
-![image](https://github.com/eshan-sud/library_management_system/assets/113531303/f258a9ac-6fb1-441a-9328-67e9b561595a)
-
-Table-3: ISSUE_DETAILS
-
-![image](https://github.com/eshan-sud/library_management_system/assets/113531303/a8a0a350-fd97-4c91-921f-1e7b58a53f60)
-
 _____________________________________________________________________________________________________________________________________________________________________________
 
 ## Admin Operations:
