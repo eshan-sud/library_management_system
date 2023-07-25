@@ -12,13 +12,13 @@ Built using Python programming language, MySQL database management language, fil
 ## How To Run
 
 
-1) Download both Python programming language & MySQL from their official website
+- Download both Python programming language & MySQL from their official website
 
-   Python : [https://www.python.org/downloads/]
+  - Python : [https://www.python.org/downloads/]
 
-   MySQL  : [https://www.mysql.com/downloads/]
+  - MySQL  : [https://www.mysql.com/downloads/]
 
-2) <ins>Optional</ins> : To create a sample database execute Create_Sample_Database.py before executing Main.py
+- <ins>Optional</ins> : To create a sample database execute Create_Sample_Database.py before executing Main.py
 
    Or
 
@@ -57,11 +57,11 @@ Built using Python programming language, MySQL database management language, fil
          RETURNED_DATE DATE,
          RECORD_TYPE CHAR(6));
    
-4) Download the files Main.py, Operations.py, Library_MySQL_Password.txt & <ins>Optional</ins> : Create_Sample_Database.py
+- Download the files Main.py, Operations.py, Library_MySQL_Password.txt & <ins>Optional</ins> : Create_Sample_Database.py
 
-   (Put the same password of your MySQL account and note that this will be your Admin password as well)
+  - (Put the same password of your MySQL account and note that this will be your Admin password as well)
    
-5) Execute Main.py to begin your program
+- Execute Main.py to begin your program
 
 _____________________________________________________________________________________________________________________________________________________________________________
 
