@@ -1,12 +1,13 @@
-_____________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________
 
 # Library Management System - World Library
 
 
-Introducing a cutting-edge text-based management system designed exclusively for libraries, empowering them to efficiently maintain and manage their records. Additionally, this innovative platform offers users the convenience of checking out library books and tracking the time limit on their rented books with ease.
+Introducing a cutting-edge text-based management system designed exclusively for libraries, empowering them to efficiently maintain and manage their records.
+Additionally, this innovative platform offers users the convenience of checking out library books and tracking the time limit on their rented books with ease.
 
 
-Built using Python programming language, MySQL database management language, file handling, pymysql, database management, etc.
+Built using Python programming language, MySQL database management language, file handling, pymysql, database management.
 
 
 ## How To Run
@@ -63,7 +64,7 @@ Built using Python programming language, MySQL database management language, fil
    
 - Execute Main.py to begin your program
 
-_____________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________
 
 ## Admin Operations:
 
@@ -120,4 +121,4 @@ iv. Check Issued Books
 v. Change Password
 
 Vi. Log Out
-_____________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________
