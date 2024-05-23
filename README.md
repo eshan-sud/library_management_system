@@ -18,6 +18,14 @@ Built using Python programming language, MySQL database management language, fil
   - Python : [https://www.python.org/downloads/]
 
   - MySQL  : [https://www.mysql.com/downloads/]
+    
+  - Pymysql : Execute the following in the Command Prompt(CMD):
+ 
+        pip install pymysql
+
+- Download the files Main.py, Operations.py, Library_MySQL_Password.txt & <ins>Optional</ins> : Create_Sample_Database.py
+
+- Update the text contained in "Library_MySQL_Password.txt" to your mysql & library management password; eg, eshansud
 
 - <ins>Optional</ins> : To create a sample database execute Create_Sample_Database.py before executing Main.py
 
@@ -57,12 +65,8 @@ Built using Python programming language, MySQL database management language, fil
          DUE_DATE DATE NOT NULL,
          RETURNED_DATE DATE,
          RECORD_TYPE CHAR(6));
-   
-- Download the files Main.py, Operations.py, Library_MySQL_Password.txt & <ins>Optional</ins> : Create_Sample_Database.py
-
-  - (Put the same password of your MySQL account and note that this will be your Admin password as well)
-   
-- Execute Main.py to begin your program
+      
+- Execute Main.py to start the program
 
 ____________________________________________________________________________________________________________________________________________________________________________
 
