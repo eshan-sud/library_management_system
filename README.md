@@ -1,11 +1,9 @@
 ____________________________________________________________________________________________________________________________________________________________________________
 
-# Library Management System - World Library
+# Library Management System
 
 
-Introducing a cutting-edge Command Line Interface(CLI)-based management system designed exclusively for libraries, empowering them to efficiently maintain and manage their records.
-Additionally, this innovative platform offers users the convenience of checking out library books and tracking the time limit on their rented books with ease.
-
+A CLI based Library Management System, enabling efficient management of library resources & member operations. Implemented a comprehensive set of functionalities, including book management, member registration, book issuance, & return processes, enhancing the overall efficiency & effectiveness of library operations.
 
 Built using Python programming language, MySQL database management language, file handling, pymysql, database management.
 
