@@ -1,6 +1,6 @@
 ____________________________________________________________________________________________________________________________________________________________________________
 
-# Library Management System
+# World Library
 
 
 A CLI based Library Management System, enabling efficient management of library resources & member operations. Implemented a comprehensive set of functionalities, including book management, member registration, book issuance, & return processes, enhancing the overall efficiency & effectiveness of library operations.
